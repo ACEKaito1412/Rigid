@@ -1,19 +1,23 @@
-
-
-<HTML>
-<head>
-<title>Hello World</title>
-<style>
-.container{
-color = "red";
-border = 1px solid white;
-border-radius = 5px;
-}
-
-</head>
+<!DOCTYPE html>
+<html>
 <body>
-<div class="container"> 
-<h1 class="lead">Flower Bed</h1>
-</div>
+
+<h2>My First JavaScript</h2>
+
+<button type="button"
+on<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
 </body>
-</HTML>
+</html> 
+click="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
