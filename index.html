@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+
+  <title>RIGID</title>
+</head>
+<body>
+<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+<div id="join" class="container join cont1">
+  <h2 class="h">RIGID</h2>
+  <p class="h">Connect With Other People</p>
+  <label id="labelId" class="h" for="userName">Enter A Name: </label>
+  <input class="h" type="text" id="userName">
+  <button id="btn" class="h" onclick="lezzGO()">Start</button>
+  <p id="wlcm">Welcome TO RigiD: </p>
+  <div id="name"></div>
+  <button id="btn2" class="h" onclick="lezzOUT()">Exit</button>
+</div>
+<div class="container mess cont1" >
+  <ul id="messageList" class="scroll">
+
+  </ul>
+  <p id=""></p>
+  <div id="cMB">
+  <input type="text" name="" id="message"><button id="sendMess">Send</button>  
+  </div>
+</div>
+
+<div class="container signUp_logIn cont1" style="display:none">
+  <div class="contForm">
+      <h1>Sign-Up</h1>
+      <p>Connect With Your Friends</p>
+      <label for="newUserName">Register UserName: </label>
+      <input type="text" id="newUserName" required>
+      <label for="newUserPass">Register Pass: </label> 
+      <input type="text" id="newUserPass"  required>
+      <label for="confirmUserPass">Confirm Password: </label>
+      <input type="text" id="confirmUserPass" onchange="passSimilar()" required>
+      <p id="ifDataNotEqual" >Password Should Be Similar</p>
+      <button id="submitNewUser">Submit</button>
+  </div>
+  <div class="contForm">
+      <h1>Log-In</h1>
+      <label for="logInUserName">User-Name: </label>
+      <input type="text" id="logInUserName">
+      <label for="logInUserPass">Password: </label>
+      <input type="password" id="logInUserPass">
+      <button id="logIn">Log-In</button>
+    </div>
+</div>
+<footer>
+
+</footer>
+
+<script src="./database.js"></script>
+<script>
+</script>
+</body>
+</html>
