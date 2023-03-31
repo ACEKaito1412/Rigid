@@ -101,6 +101,7 @@ nav{
 #sendMess{
   background-color: rgba(30, 27, 27, 0.767);
   color: black;
+  width: 100px;
 }
 
 .mess ul li{
