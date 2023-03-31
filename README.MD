@@ -1,6 +1,7 @@
 # RIGID
 
-![Landing Page](./images/Capture.PNG)
+![Landing Page](./images/Capture.PNG){:height="100px" width="100px"}
+![Messages](./images/Capture.PNG){:height="100px" width="100px"}
 
 RIGID is a simple web application that uses Firebase's Realtime Database to enable real-time chat communication between users. The app also allows users to read and write data to the database.
 
